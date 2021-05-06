@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:MetallicHats-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -8,7 +9,7 @@ Title "Metallic Hats"
 Date "2021-05-07"
 Rev "1.0"
 Comp ""
-Comment1 "by Benjie Jiao"
+Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -732,11 +733,7 @@ Wire Wire Line
 Wire Wire Line
 	5900 1550 5850 1550
 Wire Wire Line
-	5850 1550 5850 1250
-Wire Wire Line
-	5850 1250 6550 1250
-Wire Wire Line
-	6550 1250 6550 1650
+	5850 1550 5850 1200
 Wire Wire Line
 	6550 1650 6500 1650
 $Comp
@@ -761,17 +758,6 @@ F 3 "~" H 7350 1950 50  0001 C CNN
 	1    7350 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR06
-U 1 1 60B2F183
-P 7450 2250
-F 0 "#PWR06" H 7450 2000 50  0001 C CNN
-F 1 "GND" H 7455 2077 50  0000 C CNN
-F 2 "" H 7450 2250 50  0001 C CNN
-F 3 "" H 7450 2250 50  0001 C CNN
-	1    7450 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 2150 7450 2250
 Wire Wire Line
@@ -793,8 +779,8 @@ $Comp
 L Device:C_Small C9
 U 1 1 60C1D554
 P 7800 1650
-F 0 "C9" V 7571 1650 50  0000 C CNN
-F 1 "100nF" V 7662 1650 50  0000 C CNN
+F 0 "C9" V 7600 1650 50  0000 C CNN
+F 1 "100nF" V 7700 1650 50  0000 C CNN
 F 2 "" H 7800 1650 50  0001 C CNN
 F 3 "~" H 7800 1650 50  0001 C CNN
 	1    7800 1650
@@ -804,7 +790,7 @@ Wire Wire Line
 	7450 1650 7700 1650
 Connection ~ 7450 1650
 Wire Wire Line
-	6550 1650 6750 1650
+	6550 1650 6650 1650
 Connection ~ 6550 1650
 Wire Wire Line
 	7050 1950 7150 1950
@@ -921,4 +907,54 @@ Wire Wire Line
 	4150 3300 4150 4900
 Wire Wire Line
 	4150 4900 4050 4900
+$Comp
+L Device:LED D?
+U 1 1 60948A7A
+P 6900 1150
+F 0 "D?" H 6900 950 50  0000 C CNN
+F 1 "LED" H 6900 1050 50  0000 C CNN
+F 2 "" H 6900 1150 50  0001 C CNN
+F 3 "~" H 6900 1150 50  0001 C CNN
+	1    6900 1150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 1200 6550 1200
+Wire Wire Line
+	6550 1200 6550 1650
+Wire Wire Line
+	6750 1150 6650 1150
+Wire Wire Line
+	6650 1150 6650 1650
+Connection ~ 6650 1650
+Wire Wire Line
+	6650 1650 6750 1650
+$Comp
+L Device:R R?
+U 1 1 6099A208
+P 7300 1150
+F 0 "R?" V 7200 1150 50  0000 C CNN
+F 1 "1k" V 7300 1150 50  0000 C CNN
+F 2 "" V 7230 1150 50  0001 C CNN
+F 3 "~" H 7300 1150 50  0001 C CNN
+	1    7300 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 1150 7150 1150
+$Comp
+L power:GND #PWR?
+U 1 1 609A5FF6
+P 7550 1250
+F 0 "#PWR?" H 7550 1000 50  0001 C CNN
+F 1 "GND" H 7555 1077 50  0000 C CNN
+F 2 "" H 7550 1250 50  0001 C CNN
+F 3 "" H 7550 1250 50  0001 C CNN
+	1    7550 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1150 7550 1150
+Wire Wire Line
+	7550 1150 7550 1250
 $EndSCHEMATC

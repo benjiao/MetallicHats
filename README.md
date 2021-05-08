@@ -1,5 +1,6 @@
 # Metallic Hats
-by Benjie Jiao
+A hi-hat drum synthesizer module using six square wave oscillators.
+
 
 ## Version History
 

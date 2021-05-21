@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:MetallicHats-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1121,4 +1120,15 @@ Wire Wire Line
 	3550 3100 3550 5750
 Wire Wire Line
 	3550 5750 8550 5750
+$Comp
+L power:GND #PWR?
+U 1 1 60A800BE
+P 9450 5300
+F 0 "#PWR?" H 9450 5050 50  0001 C CNN
+F 1 "GND" H 9455 5127 50  0000 C CNN
+F 2 "" H 9450 5300 50  0001 C CNN
+F 3 "" H 9450 5300 50  0001 C CNN
+	1    9450 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,6 +1,7 @@
 # Metallic Hats
 A hi-hat drum synthesizer module using six square wave oscillators.
 
+[![Watch the video](https://img.youtube.com/vi/rHkbGHH1B5w/maxresdefault.jpg)](https://www.youtube.com/watch?v=rHkbGHH1B5w)
 
 ## Version History
 

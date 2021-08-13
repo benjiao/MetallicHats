@@ -1,4 +1,8 @@
 # Metallic Hats
+by Benjie Jiao
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C24WFYS)
+
 A hi-hat drum synthesizer module using six square wave oscillators.
 
 [![Watch the video](https://img.youtube.com/vi/rHkbGHH1B5w/maxresdefault.jpg)](https://www.youtube.com/watch?v=rHkbGHH1B5w)
